@@ -17,3 +17,22 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+.nav__link {
+	float: left;
+	list-style-type: none;
+}
+
+.nav__link a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 3px;
+	margin: 2px;
+}
+
+.nav__link a:hover {
+	background-color: black;
+	color: white;
+}
