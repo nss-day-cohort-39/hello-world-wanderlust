@@ -24,3 +24,14 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.morocco__photo {
+	height:200px;
+	width:100%;
+	padding:0;
+	border:1px solid orange;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq_a7gn05u5mKEv6XFoP3GDbJr16aV87o5KARJgl_iM5nWbE2y");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
