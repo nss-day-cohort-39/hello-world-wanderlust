@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url("nav.css");
 
 @import url("./imagesection.css");
 
@@ -26,11 +27,20 @@ h1,h2,h3,h4,h5,h6 {
 	margin-top:1em;
 	font-size:1.25em;
 	font-weight: bold;
+
+.navigation {
+	width: 100%;
+}
+
+.navigation ul {
+	display: flex;
 }
 
 .nav__link {
-	float: left;
+	flex-basis: 24%;
 	list-style-type: none;
+	text-align: center;
+	align-items: stretch;
 }
 
 .nav__link a {
@@ -38,6 +48,7 @@ h1,h2,h3,h4,h5,h6 {
 	text-decoration: none;
 	color: black;
 	border: 1px solid black;
+	border-radius: 3px;
 	padding: 3px;
 	margin: 2px;
 }
