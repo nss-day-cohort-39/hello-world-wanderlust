@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-@import "nav.css";
-@import "city-state-info.css";
-
+@import url("nav.css");
+@import url("./imagesection.css");
+@import url("city-govt-info.css");
 
 /*Typography
 --------------------------------------------------------------*/
@@ -20,6 +20,13 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+.country__name {
+	text-align: center;
+	border:1px solid orange;
+	margin-top:1em;
+	font-size:1.25em;
+	font-weight: bold;
 
 .navigation {
 	width: 100%;
@@ -49,10 +56,4 @@ h1,h2,h3,h4,h5,h6 {
 .nav__link a:hover {
 	background-color: black;
 	color: white;
-}
-
-
-.cities__govt {
-	flex-basis: 20px;
-	border: 20px, dashed, orange;
 }
