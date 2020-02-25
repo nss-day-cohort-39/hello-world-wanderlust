@@ -17,22 +17,12 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
-
-<<<<<<< HEAD
-.landmark-fortress {
-	max-height: 150px;
-	max-width: 150px;
-}
-.landmark-oldchurch {
+.finland-landmarks img {
 	max-height: 150px;
 	max-width: 150px;
 }
 
-.landmark-castle {
-	max-height: 150px;
-	max-width: 150px;
-=======
-.nav__link {
+ .nav__link {
 	float: left;
 	list-style-type: none;
 }
@@ -49,5 +39,4 @@ h1,h2,h3,h4,h5,h6 {
 .nav__link a:hover {
 	background-color: black;
 	color: white;
->>>>>>> master
 }
