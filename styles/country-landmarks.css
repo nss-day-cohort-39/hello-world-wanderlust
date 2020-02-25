@@ -1,19 +1,42 @@
+.landmarks {
+    display: flex;
+    flex-direction: row;
+    flex: wrap; 
+}
+.landmark-info {
+    display: flex;
+    flex: wrap;
+    flex-direction: row;
+}
+
 .finland-landmarks img {
 	max-height: 300px;
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
 }
 
 .mongolia-landmarks img {
     max-height: 300px;
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
 }
 
 .morocco-landmarks img {
     max-height: 300px;
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
 }
 
 .greece-landmarks img {
     max-height: 300px;
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
 } 
