@@ -1,12 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <script type="module" src="scripts.main.js"></script>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Nashville Software School</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <main id="container">
+            <!-- Navigation Bar -->
+            <nav class="navigation">
+                <ul>
+                <!-- Finlad -->
+                <li class="nav__link">
+                    <a href="./finland.html">Finland</a>
+                </li>
+                <!-- Mongolia -->
+                <li class="nav__link">
+                    <a href="./mongolia.html">Mongolia</a>
+                </li>
+                <!-- Morroco -->
+                <li class="nav__link">
+                    <a href="./morocco">Morocco</a>
+                </li>
+                <!-- Greece -->
+                <li class="nav__link">
+                    <a href="./greece.html">Greece</a>
+                </li>
+                </ul>
+            </nav>
+
+            <!-- Country Flag and Image section-->
+            <article class="country__images">
+                <section class="country__flag">
+                    <img src="https://elmersflag.com/wp-content/uploads/2013/08/mongolia-flag.jpg" alt="Flag of Mongolia" />
+                </section>
+                <section id="country_photo--mongolia" class="country__photo"></section>
+            </article>
+            <section class="country__name">Mongolia</section>
+            <!-- END Country Flag and Image section-->
+
+        </main>
+
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
 </html>
