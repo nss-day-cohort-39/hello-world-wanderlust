@@ -24,14 +24,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .navigation ul {
 	display: flex;
-	width: 100%;
-	border: 1px solid black;
-	justify-content: flex-start;
 }
 
 .nav__link {
+	flex-basis: 24%;
 	list-style-type: none;
-	flex-basis: 25%;
 	text-align: center;
 	align-items: stretch;
 }
