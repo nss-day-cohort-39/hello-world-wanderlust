@@ -19,19 +19,26 @@
 	width:100%;
 	padding:0;
 	border:1px solid orange;
-	background-image: url("https://i.pinimg.com/originals/cc/18/8c/cc188c604e58cffd36e1d183c7198d21.jpg");
+	background-image: url("https://i.pinimg.com/originals/cc/18/8c/cc188c604e58cffd36e1d183c7198d21.jpg"); /*Placeholder, we can remove later*/
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.morocco__photo {
-	height:200px;
-	width:100%;
-	padding:0;
-	border:1px solid orange;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTq_a7gn05u5mKEv6XFoP3GDbJr16aV87o5KARJgl_iM5nWbE2y");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
+/* Replace these with your country image and add the corresponding ID to your html page :) */
+#country_photo--finland {
+	background-image: url("https://i.pinimg.com/originals/cc/18/8c/cc188c604e58cffd36e1d183c7198d21.jpg");
+}
+
+#country_photo--mongolia {
+	background-image: url("https://i.pinimg.com/originals/cc/18/8c/cc188c604e58cffd36e1d183c7198d21.jpg");
+}
+
+#country_photo--morocco {
+	background-image: url("https://i.pinimg.com/originals/cc/18/8c/cc188c604e58cffd36e1d183c7198d21.jpg");
+}
+
+#country_photo--greece {
+	background-image: url("https://i.pinimg.com/originals/cc/18/8c/cc188c604e58cffd36e1d183c7198d21.jpg");
 }
