@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
-@import "nav.css"
+@import url("nav.css");
+
+@import url("./imagesection.css");
 
 /*Typography
 --------------------------------------------------------------*/
@@ -18,6 +20,13 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+.country__name {
+	text-align: center;
+	border:1px solid orange;
+	margin-top:1em;
+	font-size:1.25em;
+	font-weight: bold;
 
 .navigation {
 	width: 100%;
