@@ -7,9 +7,11 @@
 .city__info {
     
     border: 1px dotted black;
+    justify-content: center;
 }
 
 .city__header{
+    text-align: center;
     
 }
 .city__list {
@@ -20,10 +22,11 @@
 .govt__info {
     
     border: 1px dotted black; 
+    justify-content: center;
 }
 
 .govt__header {
-    
+    text-align: center;
 
 }
 
