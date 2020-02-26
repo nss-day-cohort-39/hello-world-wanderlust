@@ -1,7 +1,6 @@
 .landmarks {
     display: flex;
     flex: wrap;
-    flex-direction: row;
 }
 .landmark-info {
     display: flex;
