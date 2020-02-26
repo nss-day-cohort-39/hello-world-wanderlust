@@ -12,6 +12,7 @@
 }
 
 .city__header{
+    text-align: center;
     
 }
 .city__list {
@@ -27,7 +28,7 @@
 }
 
 .govt__header {
-    
+    text-align: center;
 
 }
 
