@@ -76,4 +76,11 @@ body {
 .homepage__flags {
 	display:flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.homepage__flags img {
+	height:200px;
+	width:300px;
+	margin:1em;
 }
