@@ -65,3 +65,15 @@ body {
 .country__info {
 	display: flex;
 }
+
+.team__name {
+	text-align: center;
+}
+.team__slogan {
+	text-align: center;
+}
+
+.homepage__flags {
+	display:flex;
+	justify-content: space-around;
+}
