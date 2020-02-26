@@ -1,0 +1,33 @@
+.city__govt__info {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid orange;
+}
+
+.city__info {
+    
+    border: 1px dotted black;
+}
+
+.city__header{
+    
+}
+.city__list {
+    
+
+}
+
+.govt__info {
+    
+    border: 1px dotted black; 
+}
+
+.govt__header {
+    
+
+}
+
+.govt__list {
+   
+
+}
