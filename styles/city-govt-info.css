@@ -1,12 +1,14 @@
 .city__govt__info {
     display: flex;
+    flex: 1 0 0;
     flex-wrap: wrap;
-    border: 1px solid orange;
 }
 
 .city__info {
-    
-    border: 1px dotted black;
+    width: 100%;
+    margin: 1em 1em 0 1em;
+    padding:1em;
+    background-color:white;
 }
 
 .city__header{
@@ -18,8 +20,10 @@
 }
 
 .govt__info {
-    
-    border: 1px dotted black; 
+    width: 100%;
+    margin: 1em;
+    padding:1em;
+    background-color:white;
 }
 
 .govt__header {

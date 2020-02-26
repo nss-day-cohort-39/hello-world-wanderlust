@@ -22,15 +22,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 body {
-	background-color:dimgray;
+	background-color:lightgray;
 }
 
 .country__name {
 	text-align: center;
-	border:1px solid orange;
 	margin-top:1em;
-	font-size:1.25em;
+	font-size:2em;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 /* .navigation {
 	width: 100%;
