@@ -20,14 +20,18 @@ textarea {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
-} 
+}
+
+body {
+	background-color:lightgray;
+}
 
 .country__name {
 	text-align: center;
-	border:1px solid orange;
 	margin-top:1em;
-	font-size:1.25em;
+	font-size:2em;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 /* .navigation {
 	width: 100%;
@@ -60,4 +64,23 @@ h1,h2,h3,h4,h5,h6 {
 } */
 .country__info {
 	display: flex;
+}
+
+.team__name {
+	text-align: center;
+}
+.team__slogan {
+	text-align: center;
+}
+
+.homepage__flags {
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.homepage__flags img {
+	height:200px;
+	width:300px;
+	margin:1em;
 }

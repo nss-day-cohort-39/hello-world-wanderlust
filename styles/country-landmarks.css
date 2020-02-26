@@ -1,6 +1,15 @@
+.landmarks {
+    display: flex;
+    flex: wrap;
+    flex: 4 0 0;
+}
 .landmark-info {
     display: flex;
     flex: wrap;
+    flex-direction: row;
+    margin:1em;
+    padding:1em;
+    background-color: white;
 }
 .morocco-landmarks img {
     max-height: 300px;
@@ -8,6 +17,7 @@
     display: flex;
     flex-direction: column;
     flex: wrap;
+    margin-right: 1em;
 }
 
 .mongolia-landmarks img {
@@ -16,6 +26,7 @@
     display: flex;
     flex-direction: column;
     flex: wrap;
+    margin-right: 1em;
 }
 
 .finland-landmarks img {
@@ -24,6 +35,7 @@
     display: flex;
     flex-direction: column;
     flex: wrap;
+    margin-right: 1em;
 }
 
 .greece-landmarks img {
@@ -32,4 +44,5 @@
     display: flex;
     flex-direction: column;
     flex: wrap;
-}
+    margin-right: 1em;
+} 
