@@ -1,11 +1,13 @@
 .landmarks {
     display: flex;
     flex: wrap;
+    background-color: white;
 }
 .landmark-info {
     display: flex;
     flex: wrap;
     flex-direction: row;
+    margin:1em;
 }
 
 .finland-landmarks img {
