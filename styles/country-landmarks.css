@@ -9,3 +9,27 @@
     flex-direction: column;
     flex: wrap;
 }
+
+.mongolia-landmarks img {
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+}
+
+.finland-landmarks img {
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+}
+
+.greece-landmarks img {
+    max-height: 300px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+}
