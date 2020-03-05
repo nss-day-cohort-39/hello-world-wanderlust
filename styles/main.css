@@ -33,35 +33,7 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 }
-/* .navigation {
-	width: 100%;
-}
 
-.navigation ul {
-	display: flex;
-}
-
-.nav__link {
-	flex-basis: 24%;
-	list-style-type: none;
-	text-align: center;
-	align-items: stretch;
-}
-
-.nav__link a {
-	display: block;
-	text-decoration: none;
-	color: black;
-	border: 1px solid black;
-	border-radius: 3px;
-	padding: 3px;
-	margin: 2px;
-}
-
-.nav__link a:hover {
-	background-color: black;
-	color: white;
-} */
 .country__info {
 	display: flex;
 }
