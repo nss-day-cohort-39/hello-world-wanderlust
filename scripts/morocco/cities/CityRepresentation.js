@@ -1,4 +1,4 @@
-//function that creates an HTML representation of a city on the Mongolia page
+//function that creates an HTML representation of a city on the Morocco page
 
 const cityRepresentation = (city) => {
     return `

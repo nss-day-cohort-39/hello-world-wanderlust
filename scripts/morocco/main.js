@@ -1,8 +1,7 @@
+import cityList from "./cities/CityList.js";
+import leaderList from "./leaders/LeaderList.js";
+import landmarkList from "./landmarks/LandmarkList.js";
 
-import leaderList from "./leaders/LeaderList";
-import cityList from "./cities/CityList";
-import landmarkList from "./landmarks/LandmarkList";
-
-leaderList()
-cityList()
-landmarkList()
+landmarkList();
+cityList();
+leaderList();
