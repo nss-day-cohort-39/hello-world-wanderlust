@@ -1,4 +1,4 @@
-//This file contains the list of cities that should appear on the Mongolia page
+//This file contains the list of cities that should appear on the Morocco page
 
 const cityCollection = [{
     name: "Marrakesh",
